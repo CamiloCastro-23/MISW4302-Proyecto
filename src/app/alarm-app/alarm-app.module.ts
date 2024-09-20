@@ -7,6 +7,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LayoutComponent } from './pages/layout/layout.component';
 import { MaterialModule } from '../material/material.module';
+import { RewardsComponent } from './pages/rewards/rewards.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MaterialModule } from '../material/material.module';
     SidebarComponent,
     LoginComponent,
     DashboardComponent,
-    LayoutComponent
+    LayoutComponent,
+    RewardsComponent
   ],
   imports: [
     CommonModule,
