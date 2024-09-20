@@ -6,6 +6,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { LoginComponent } from './pages/login/login.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LayoutComponent } from './pages/layout/layout.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { LayoutComponent } from './pages/layout/layout.component';
   ],
   imports: [
     CommonModule,
-    AlarmAppRoutingModule
+    AlarmAppRoutingModule,
+    MaterialModule
   ]
 })
 export class AlarmAppModule { }

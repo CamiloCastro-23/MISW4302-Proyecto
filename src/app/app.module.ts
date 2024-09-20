@@ -13,7 +13,7 @@ import { MaterialModule } from './material/material.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
   ],
   providers: [
     provideClientHydration(),
