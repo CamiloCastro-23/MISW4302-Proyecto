@@ -14,34 +14,38 @@
 
     <div>
       <!-- Imagen del logo -->
-      <img src="assets/logo.png" alt="logo" class="mb-6">
+      <img src="assets/logo.png" alt="logo" class="mb-2">
     </div>
 
     <!-- Título -->
-    <h1 class="text-3xl font-bold mb-6">¡Bienvenido!</h1>
+    <h1 class="text-3xl font-bold">¡Bienvenido!</h1>
 
     <!-- Formulario -->
-    <div class="flex items-center justify-center mt-12 mb-6">
+    <div class="flex items-center justify-center !mt-8 mb-6">
       <form class="example-form w-full">
-        <div class="w-full">
+        <div class="w-full mb-4">
           <!-- Campo de Correo Electrónico -->
           <mat-form-field class="example-full-width !mb-8" appearance="fill" class="w-[452px] h-[90px]">
             <label>Correo Electrónico</label>
             <input matInput placeholder="Nombre@correo.com" type="email" class="w-[452px] h-[90px]">
+            <button mat-icon-button matSuffix> <span class="material-symbols-outlined">cancel</span></button>
+            <mat-hint>Ingresa el correo electrónico con el que te registraste</mat-hint>
           </mat-form-field>
         </div>
         <div class="w-full">
           <!-- Campo de Contraseña -->
-          <mat-form-field class="example-full-width mb-4 mt-4" appearance="fill" class="w-[452px] h-[90px]">
+          <mat-form-field class="example-full-width mb-4 mt-8" appearance="fill" class="w-[452px] h-[90px]">
             <label>Contraseña</label>
             <input matInput placeholder="********" type="password" class="w-[452px] h-[90px]">
+            <button mat-icon-button matSuffix> <span class="material-symbols-outlined">cancel</span></button>
           </mat-form-field>
         </div>
         <div class="flex justify-center mt-4">
           <!-- Botón de Iniciar Sesión -->
-            <a mat-flat-button color="primary" routerLink="/dashboard" class="!bg-[#36618e] w-72 h-12 text-white !text-xl !p-6">
-              Iniciar sesión
-            </a>
+          <a mat-flat-button color="primary" routerLink="/dashboard"
+            class="!bg-[#36618e] w-72 h-12 text-white !text-xl !p-6">
+            Iniciar sesión
+          </a>
         </div>
 
         <div class="w-full flex justify-center mt-6">
