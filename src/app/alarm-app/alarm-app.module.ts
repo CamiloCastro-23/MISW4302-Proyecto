@@ -8,6 +8,8 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LayoutComponent } from './pages/layout/layout.component';
 import { MaterialModule } from '../material/material.module';
 import { RewardsComponent } from './pages/rewards/rewards.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { RegisteredComponent } from './pages/registered/registered.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { RewardsComponent } from './pages/rewards/rewards.component';
     LoginComponent,
     DashboardComponent,
     LayoutComponent,
-    RewardsComponent
+    RewardsComponent,
+    RegisterComponent,
+    RegisteredComponent
   ],
   imports: [
     CommonModule,

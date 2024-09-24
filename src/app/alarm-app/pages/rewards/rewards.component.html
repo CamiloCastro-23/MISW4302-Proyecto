@@ -1,1 +1,243 @@
-<p>rewards works!</p>
+<div class="h-full w-full">
+  <!-- Contenedor con 10 columnas -->
+  <div class="grid grid-cols-10 h-full w-full overflow-hidden">
+
+    <div class="col-span-4 h-full w-full p-4">
+      <mat-card class="example-card h-full w-full" appearance="outlined">
+        <mat-card-header>
+          <!-- Avatar personalizado con las iniciales CC y fondo #36618e -->
+          <div mat-card-avatar class="rounded-full bg-[#36618e] flex items-center justify-center h-full text-white font-bold" style="width: 40px; height: 40px;">
+            CC
+          </div>
+          <!-- Título y subtítulo -->
+          <mat-card-title>Camilo Castro</mat-card-title>
+          <mat-card-subtitle>Quiero despertar a las 7 am</mat-card-subtitle>
+          <span class="material-symbols-outlined cursor-pointer ml-auto" matTooltip="Camilo Castro">
+            more_vert
+          </span>
+
+        </mat-card-header>
+
+        <!-- Imagen desde assets -->
+        <img mat-card-image src="assets/u1-expanded.png" alt="Foto de Camilo Castro">
+
+        <!-- Contenido -->
+        <mat-card-content class="mt-6">
+          <p class="font-semibold">
+            Camilo Castro
+          </p>
+          <p>
+            Ingeniero DevOps, trabaja en un banco manejando admin de la nube.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <!-- Columna 2 de 6/10 (60%) -->
+    <div class="col-span-6 w-full h-full">
+      <div class="grid grid-rows-8 h-full w-full">
+        <div class="flex row-span-1 h-full w-full">
+          <div class="absolute top-0 right-0 pt-1">
+            <img src="assets/logo.png" alt="logo" class="w-[80px] h-[60px]">
+          </div>
+        </div>
+
+        <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50 border-b border-gray-300">
+          <!-- Contenido en fila -->
+          <div class="flex items-center space-x-4">
+            <!-- Cuadrado con fondo gris e icono award_star -->
+            <div class="w-16 h-16 bg-gray-300 flex items-center justify-center">
+              <span class="material-symbols-outlined text-black text-7xl">award_star</span>
+            </div>
+
+            <!-- Información del usuario -->
+            <div class="space-y-0">
+              <div class="font-normal text-lg mb-0">1/2/2024</div>
+              <div class="font-normal text-lg text-gray-600 leading-tight">Despertaste a tiempo</div>
+            </div>
+          </div>
+
+          <!-- Icono de opciones (more_vert) con tooltip -->
+          <div class="relative group">
+            <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+            <!-- Tooltip -->
+            <div class="absolute right-0 mt-2 w-28 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+              Detalle Recompensa
+            </div>
+          </div>
+        </div>
+
+        <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50 border-b border-gray-300">
+          <!-- Contenido en fila -->
+          <div class="flex items-center space-x-4">
+            <!-- Cuadrado con fondo gris e icono award_star -->
+            <div class="w-16 h-16 bg-gray-300 flex items-center justify-center">
+              <span class="material-symbols-outlined text-black text-7xl">
+                social_leaderboard
+                </span>
+            </div>
+
+            <!-- Información del usuario -->
+            <div class="space-y-0">
+              <div class="font-normal text-lg mb-0">3/4/2024</div>
+              <div class="font-normal text-lg text-gray-600 leading-tight">Cumpliste tu meta de horario</div>
+            </div>
+          </div>
+
+          <!-- Icono de opciones (more_vert) con tooltip -->
+          <div class="relative group">
+            <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+            <!-- Tooltip -->
+            <div class="absolute right-0 mt-2 w-28 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+              Detalle Recompensa
+            </div>
+          </div>
+        </div>
+
+        <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50 border-b border-gray-300">
+          <!-- Contenido en fila -->
+          <div class="flex items-center space-x-4">
+            <!-- Cuadrado con fondo gris e icono award_star -->
+            <div class="w-16 h-16 bg-gray-300 flex items-center justify-center">
+              <span class="material-symbols-outlined text-black text-7xl">
+                editor_choice
+                </span>
+            </div>
+
+            <!-- Información del usuario -->
+            <div class="space-y-0">
+              <div class="font-normal text-lg mb-0">5/6/2024</div>
+              <div class="font-normal text-lg text-gray-600 leading-tight">Sigue con esta racha</div>
+            </div>
+          </div>
+
+          <!-- Icono de opciones (more_vert) con tooltip -->
+          <div class="relative group">
+            <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+            <!-- Tooltip -->
+            <div class="absolute right-0 mt-2 w-28 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+              Detalle Recompensa
+            </div>
+          </div>
+        </div>
+
+        <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50 border-b border-gray-300">
+          <!-- Contenido en fila -->
+          <div class="flex items-center space-x-4">
+            <!-- Cuadrado con fondo gris e icono award_star -->
+            <div class="w-16 h-16 bg-gray-300 flex items-center justify-center">
+              <span class="material-symbols-outlined text-black text-7xl">
+                trophy
+                </span>
+            </div>
+
+            <!-- Información del usuario -->
+            <div class="space-y-0">
+              <div class="font-normal text-lg mb-0">7/8/2024</div>
+              <div class="font-normal text-lg text-gray-600 leading-tight">Campeón en madrugar</div>
+            </div>
+          </div>
+
+          <!-- Icono de opciones (more_vert) con tooltip -->
+          <div class="relative group">
+            <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+            <!-- Tooltip -->
+            <div class="absolute right-0 mt-2 w-28 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+              Detalle Recompensa
+            </div>
+          </div>
+        </div>
+
+        <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50 border-b border-gray-300">
+          <!-- Contenido en fila -->
+          <div class="flex items-center space-x-4">
+            <!-- Cuadrado con fondo gris e icono award_star -->
+            <div class="w-16 h-16 bg-gray-300 flex items-center justify-center">
+              <span class="material-symbols-outlined text-black text-7xl">
+                military_tech
+                </span>
+            </div>
+
+            <!-- Información del usuario -->
+            <div class="space-y-0">
+              <div class="font-normal text-lg mb-0">9/10/2024</div>
+              <div class="font-normal text-lg text-gray-600 leading-tight">Eres un reloj</div>
+            </div>
+          </div>
+
+          <!-- Icono de opciones (more_vert) con tooltip -->
+          <div class="relative group">
+            <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+            <!-- Tooltip -->
+            <div class="absolute right-0 mt-2 w-28 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+              Detalle Recompensa
+            </div>
+          </div>
+        </div>
+
+        <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50 border-b border-gray-300">
+          <!-- Contenido en fila -->
+          <div class="flex items-center space-x-4">
+            <!-- Cuadrado con fondo gris e icono award_star -->
+            <div class="w-16 h-16 bg-gray-300 flex items-center justify-center">
+              <span class="material-symbols-outlined text-black text-7xl">
+                verified
+                </span>
+            </div>
+
+            <!-- Información del usuario -->
+            <div class="space-y-0">
+              <div class="font-normal text-lg mb-0">13/1/2024</div>
+              <div class="font-normal text-lg text-gray-600 leading-tight">WOOOHH</div>
+            </div>
+          </div>
+
+          <!-- Icono de opciones (more_vert) con tooltip -->
+          <div class="relative group">
+            <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+            <!-- Tooltip -->
+            <div class="absolute right-0 mt-2 w-28 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+              Detalle Recompensa
+            </div>
+          </div>
+        </div>
+
+        <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50 border-b border-gray-300">
+          <!-- Contenido en fila -->
+          <div class="flex items-center space-x-4">
+            <!-- Cuadrado con fondo gris e icono award_star -->
+            <div class="w-16 h-16 bg-gray-300 flex items-center justify-center">
+              <span class="material-symbols-outlined text-black text-7xl">
+                editor_choice
+                </span>
+            </div>
+
+            <!-- Información del usuario -->
+            <div class="space-y-0">
+              <div class="font-normal text-lg mb-0">11/12/2024</div>
+              <div class="font-normal text-lg text-gray-600 leading-tight">Estoy feliz</div>
+            </div>
+          </div>
+
+          <!-- Icono de opciones (more_vert) con tooltip -->
+          <div class="relative group">
+            <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+            <!-- Tooltip -->
+            <div class="absolute right-0 mt-2 w-28 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+              Detalle Recompensa
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
