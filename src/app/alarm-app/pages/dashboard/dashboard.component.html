@@ -1,1 +1,206 @@
-<p>dashboard works! users</p>
+<div class="h-full w-full flex flex-col">
+
+  <div class="h-1/3 w-full p-4 flex flex-col items-center">
+
+    <div class="flex items-center bg-[#ece6f0] rounded-full w-full max-w-xl p-3 shadow-md">
+
+      <span class="material-symbols-outlined text-gray-500 px-2">
+        menu
+      </span>
+
+      <input type="text" placeholder="Busca un usuario"
+        class="bg-transparent w-full px-4 text-gray-600 focus:outline-none">
+
+      <span class="material-symbols-outlined text-gray-500 px-2">
+        search
+      </span>
+    </div>
+    <div class="absolute top-0 right-0 pt-1">
+      <img src="assets/logo.png" alt="logo" class="w-[80px] h-[60px]">
+    </div>
+    <div class="grid grid-cols-10 h-full w-full">
+
+      <div class="col-span-2 h-full w-full p-4 py-6 space-y-4">
+        <div class="w-full">
+          <!-- Campo de Nombre -->
+          <mat-form-field class="example-full-width !mb-8" appearance="fill" class="w-full">
+            <mat-label>Nombre</mat-label>
+            <input matInput placeholder="Nombre" type="text" class="w-full h-[90px]">
+            <button mat-icon-button matSuffix>
+              <span class="material-symbols-outlined">cancel</span>
+            </button>
+          </mat-form-field>
+        </div>
+
+        <div class="w-full mb-4">
+          <!-- Campo de Apellido -->
+          <mat-form-field class="example-full-width" appearance="fill" class="w-full">
+            <mat-label>Apellido</mat-label>
+            <input matInput placeholder="Apellido" type="text" class="w-full h-[90px]">
+            <button mat-icon-button matSuffix>
+              <span class="material-symbols-outlined">cancel</span>
+            </button>
+          </mat-form-field>
+        </div>
+      </div>
+
+
+      <div class="flex col-span-5 h-full w-full items-center justify-end">
+        <div class="w-4/5 h-full py-6">
+          <mat-form-field appearance="fill" class="w-full h-full">
+            <mat-label>Objetivo</mat-label>
+            <input matInput placeholder="Que espera alcanzar con el uso de la app" type="text" class="w-full h-full">
+            <button mat-icon-button matSuffix>
+              <span class="material-symbols-outlined">cancel</span>
+            </button>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="flex col-span-3 h-full w-full flex-col items-center justify-center pb-6">
+        <!-- Ícono add_photo_alternate de 90x90 -->
+        <span class="material-symbols-outlined text-[#49454f]" style="font-size: 90px;">
+          add_photo_alternate
+        </span>
+
+        <!-- Botón Guardar -->
+        <div class="flex justify-center">
+          <a mat-flat-button color="primary" class="!bg-[#36618e] text-white !text-xl !p-6">
+            Guardar
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="h-2/3 w-full p-7 mt-6">
+    <div class="grid grid-rows-5 w-full h-full">
+
+
+      <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50">
+        <!-- Contenido en fila -->
+        <div class="flex items-center space-x-4">
+          <!-- Imagen del usuario -->
+          <img src="assets/u1.png" alt="Foto de usuario" class="w-16 h-16">
+
+          <!-- Información del usuario -->
+          <div class="space-y-0">
+            <div class="font-bold text-lg mb-0">Camilo Castro</div>
+            <div class="font-normal text-lg leading-tight">Quiero despertar a las 7am</div>
+          </div>
+        </div>
+
+        <!-- Icono de opciones (more_vert) con tooltip -->
+        <div class="relative group">
+          <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+          <!-- Tooltip -->
+          <div class="absolute right-0 mt-2 w-48 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+            Ver recompensas usuario
+          </div>
+        </div>
+      </div>
+
+
+      <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50">
+        <!-- Contenido en fila -->
+        <div class="flex items-center space-x-4">
+          <!-- Imagen del usuario -->
+          <img src="assets/u2.png" alt="Foto de usuario" class="w-16 h-16">
+
+          <!-- Información del usuario -->
+          <div class="space-y-0">
+            <div class="font-bold text-lg mb-0">Hernan Martinez</div>
+            <div class="font-normal text-lg leading-tight">Quiero ser más productivo en el día</div>
+          </div>
+        </div>
+
+        <!-- Icono de opciones (more_vert) con tooltip -->
+        <div class="relative group">
+          <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+          <!-- Tooltip -->
+          <div class="absolute right-0 mt-2 w-48 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+            Ver recompensas usuario
+          </div>
+        </div>
+      </div>
+
+
+<div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50">
+        <!-- Contenido en fila -->
+        <div class="flex items-center space-x-4">
+          <!-- Imagen del usuario -->
+          <img src="assets/u3.png" alt="Foto de usuario" class="w-16 h-16">
+
+          <!-- Información del usuario -->
+          <div class="space-y-0">
+            <div class="font-bold text-lg mb-0">Luis Hernandez</div>
+            <div class="font-normal text-lg leading-tight">Quiero leer en las mañanas</div>
+          </div>
+        </div>
+
+        <!-- Icono de opciones (more_vert) con tooltip -->
+        <div class="relative group">
+          <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+          <!-- Tooltip -->
+          <div class="absolute right-0 mt-2 w-48 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+            Ver recompensas usuario
+          </div>
+        </div>
+      </div>
+
+
+      <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50">
+        <!-- Contenido en fila -->
+        <div class="flex items-center space-x-4">
+          <!-- Imagen del usuario -->
+          <img src="assets/u4.png" alt="Foto de usuario" class="w-16 h-16">
+
+          <!-- Información del usuario -->
+          <div class="space-y-0">
+            <div class="font-bold text-lg mb-0">Daniela Hurtado</div>
+            <div class="font-normal text-lg leading-tight">Quiero mejorar mi rutina</div>
+          </div>
+        </div>
+
+        <!-- Icono de opciones (more_vert) con tooltip -->
+        <div class="relative group">
+          <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+          <!-- Tooltip -->
+          <div class="absolute right-0 mt-2 w-48 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+            Ver recompensas usuario
+          </div>
+        </div>
+      </div>
+
+      <div class="flex row-span-1 pl-4 items-center justify-between hover:bg-slate-50">
+        <!-- Contenido en fila -->
+        <div class="flex items-center space-x-4">
+          <!-- Imagen del usuario -->
+          <img src="assets/u5.png" alt="Foto de usuario" class="w-16 h-16">
+
+          <!-- Información del usuario -->
+          <div class="space-y-0">
+            <div class="font-bold text-lg mb-0">Sonia Sanchez</div>
+            <div class="font-normal text-lg leading-tight">Quiero despertar para hacer ejercicio temprano</div>
+          </div>
+        </div>
+
+        <!-- Icono de opciones (more_vert) con tooltip -->
+        <div class="relative group">
+          <span class="material-symbols-outlined text-gray-500 cursor-pointer">more_vert</span>
+
+          <!-- Tooltip -->
+          <div class="absolute right-0 mt-2 w-48 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2">
+            Ver recompensas usuario
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

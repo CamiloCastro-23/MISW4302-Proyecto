@@ -4,7 +4,7 @@
   <div class="flex row-span-1 items-center text-sm font-normal pl-6 text-slate-600">Administración</div>
 
   <!-- Fila 2 - Usuarios -->
-  <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer" [ngClass]="{
+  <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer hover:bg-[#e1e2e9]" [ngClass]="{
         'text-slate-900 font-semibold bg-[#d7e3f7]': selectedItem === 'usuarios',
         'text-slate-600 font-normal': selectedItem !== 'usuarios'
       }" (click)="selectItem('usuarios')" routerLink="./users">
@@ -14,7 +14,7 @@
   </div>
 
   <!-- Fila 3 - Seguridad -->
-  <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer" [ngClass]="{
+  <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer hover:bg-[#e1e2e9]" [ngClass]="{
         'text-slate-900 font-semibold bg-[#d7e3f7]': selectedItem === 'seguridad',
         'text-slate-600 font-normal': selectedItem !== 'seguridad'
       }" (click)="selectItem('seguridad')">
@@ -28,7 +28,7 @@
   </div>
 
   <!-- Fila 6 - Historial -->
-  <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer" [ngClass]="{
+  <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer hover:bg-[#e1e2e9]" [ngClass]="{
         'text-slate-900 font-semibold bg-[#d7e3f7]': selectedItem === 'historial',
         'text-slate-600 font-normal': selectedItem !== 'historial'
       }" (click)="selectItem('historial')">
@@ -37,7 +37,7 @@
   </div>
 
   <!-- Fila 7 - Recompensas -->
-  <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer" [ngClass]="{
+  <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer hover:bg-[#e1e2e9]" [ngClass]="{
         'text-slate-900 font-semibold bg-[#d7e3f7]': selectedItem === 'recompensas',
         'text-slate-600 font-normal': selectedItem !== 'recompensas'
       }" (click)="selectItem('recompensas')" routerLink="./rewards">
