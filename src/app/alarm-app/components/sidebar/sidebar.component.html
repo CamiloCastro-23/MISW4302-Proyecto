@@ -27,23 +27,24 @@
     Alarmas
   </div>
 
-  <!-- Fila 6 - Historial -->
-  <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer hover:bg-[#e1e2e9]" [ngClass]="{
-        'text-slate-900 font-semibold bg-[#d7e3f7]': selectedItem === 'historial',
-        'text-slate-600 font-normal': selectedItem !== 'historial'
-      }" (click)="selectItem('historial')">
-    <span class="material-symbols-outlined">history</span>
-    <div>Historial</div>
-  </div>
-
   <!-- Fila 7 - Recompensas -->
   <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer hover:bg-[#e1e2e9]" [ngClass]="{
         'text-slate-900 font-semibold bg-[#d7e3f7]': selectedItem === 'recompensas',
         'text-slate-600 font-normal': selectedItem !== 'recompensas'
       }" (click)="selectItem('recompensas')" routerLink="./rewards">
-    <span class="material-symbols-outlined">stars</span>
+    <span class="material-symbols-outlined">history</span>
     <div>Recompensas</div>
   </div>
+
+  <!-- Fila 6 - Historial -->
+  <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer hover:bg-[#e1e2e9]" [ngClass]="{
+        'text-slate-900 font-semibold bg-[#d7e3f7]': selectedItem === 'apagar',
+        'text-slate-600 font-normal': selectedItem !== 'apagar'
+      }" (click)="selectItem('apagar')">
+    <span class="material-symbols-outlined">stars</span>
+    <div>Apagar Alarma</div>
+  </div>
+
 
   <div class="flex row-span-1 border-b border-slate-300">
   </div>
