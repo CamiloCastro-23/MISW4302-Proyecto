@@ -1,1 +1,60 @@
-<p>register works!</p>
+<div class="grid grid-cols-12 h-screen">
+  <!-- Columna 1 a 7 -->
+  <div class="relative flex flex-row col-span-7 bg-[#288ffa] h-full items-center justify-center">
+    <!-- Imagen de fondo (Reloj) -->
+    <img src="assets/reloj.png" alt="reloj" class="w-[480px] h-[480px]">
+
+    <!-- Imagen superpuesta (zzz.png) que parte desde el final de la imagen reloj -->
+    <img src="assets/zzz.png" alt="imagen-superpuesta"
+      class="absolute w-[400px] h-[300px] bottom-0 left-0 transform translate-y-[-120%] translate-x-[120%]">
+  </div>
+
+  <!-- Columna 8 a 12 -->
+  <div class="flex flex-col col-span-5 bg-[#e6eef6] h-full items-center justify-start">
+
+    <div>
+      <!-- Imagen del logo -->
+      <img src="assets/logo.png" alt="logo" class="mb-2">
+    </div>
+
+    <!-- Título -->
+    <h1 class="text-3xl font-bold">¡Bienvenido!</h1>
+
+    <!-- Formulario -->
+    <div class="flex items-center justify-center !mt-8 mb-6">
+      <form class="example-form w-full">
+        <div class="w-full mb-4">
+          <!-- Campo de Correo Electrónico -->
+          <mat-form-field class="example-full-width !mb-8" appearance="fill" class="w-[452px] h-[90px]">
+            <label>Correo Electrónico</label>
+            <input matInput placeholder="Nombre@correo.com" type="email" class="w-[452px] h-[90px]">
+            <button mat-icon-button matSuffix> <span class="material-symbols-outlined">cancel</span></button>
+            <mat-hint>Ingresa el correo electrónico con el que iniciaras sesión</mat-hint>
+          </mat-form-field>
+        </div>
+        <div class="w-full">
+          <!-- Campo de Contraseña -->
+          <mat-form-field class="example-full-width mb-4 mt-8" appearance="fill" class="w-[452px] h-[90px]">
+            <label>Contraseña</label>
+            <input matInput placeholder="********" type="password" class="w-[452px] h-[90px]">
+            <button mat-icon-button matSuffix> <span class="material-symbols-outlined">cancel</span></button>
+          </mat-form-field>
+        </div>
+        <div class="flex justify-center mt-4">
+          <!-- Botón de Iniciar Sesión -->
+          <a mat-flat-button color="primary" routerLink="/registered"
+            class="!bg-[#36618e] w-72 h-12 text-white !text-xl !p-6 !font-light">
+            Registrarse
+          </a>
+        </div>
+
+        <div class="w-full flex justify-center mt-6">
+          <!-- Enlace para Registrarse -->
+          <a href="#" routerLink="/login" class="text-blue-600 !text-lg">Ya tengo una cuenta</a>
+        </div>
+      </form>
+
+    </div>
+
+  </div>
+</div>
