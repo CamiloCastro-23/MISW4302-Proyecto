@@ -59,4 +59,4 @@ npm install -g @angular/cli
 
 5. Visualizar en el Navegador con la resolucion ***1366 x 768***
 
-6. Seguir el video de Navegacion del proyecto
+6. Seguir el video de Navegacion del proyecto: https://youtu.be/soJnRR4Dy-8
