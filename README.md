@@ -50,6 +50,13 @@ npm install
 ng serve -o
 ```
 
+Nota: En caso de ser necesario, ejecute el siguiente comando y reintente habilitar el modo server de la aplicación:
+
+```ocaml
+npm install -g @angular/cli
+```
+
+
 5. Visualizar en el Navegador con la resolucion ***1366 x 768***
 
 6. Seguir el video de Navegacion del proyecto
