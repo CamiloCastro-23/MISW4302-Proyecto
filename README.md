@@ -44,14 +44,12 @@
 npm install
 ```
 
-1. Habilitar el modo server de la applicacion 
+4. Habilitar el modo server de la applicacion 
 
 ```ocaml
 ng serve -o
 ```
 
-1. Visualizar en el Navegador con la resolucion ***1366 x 768 (utilizando los DevTools)***
+5. Visualizar en el Navegador con la resolucion ***1366 x 768***
 
-![image.png](image%207.png)
-
-1. Seguir el video de Navegacion del proyecto
+6. Seguir el video de Navegacion del proyecto
