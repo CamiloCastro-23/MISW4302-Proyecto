@@ -11,6 +11,8 @@ import { RewardsComponent } from './pages/rewards/rewards.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { RegisteredComponent } from './pages/registered/registered.component';
 import { SecurityComponent } from './pages/security/security.component';
+import { ApagarComponent } from './pages/apagar/apagar.component';
+import { FelicidadesComponent } from './pages/felicidades/felicidades.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { SecurityComponent } from './pages/security/security.component';
     RewardsComponent,
     RegisterComponent,
     RegisteredComponent,
-    SecurityComponent
+    SecurityComponent,
+    ApagarComponent,
+    FelicidadesComponent
   ],
   imports: [
     CommonModule,
