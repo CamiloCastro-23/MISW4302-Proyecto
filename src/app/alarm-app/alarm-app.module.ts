@@ -10,6 +10,7 @@ import { MaterialModule } from '../material/material.module';
 import { RewardsComponent } from './pages/rewards/rewards.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { RegisteredComponent } from './pages/registered/registered.component';
+import { SecurityComponent } from './pages/security/security.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { RegisteredComponent } from './pages/registered/registered.component';
     LayoutComponent,
     RewardsComponent,
     RegisterComponent,
-    RegisteredComponent
+    RegisteredComponent,
+    SecurityComponent
   ],
   imports: [
     CommonModule,

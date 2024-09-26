@@ -4,6 +4,7 @@ import path from 'path';
 import { LayoutComponent } from './pages/layout/layout.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { RewardsComponent } from './pages/rewards/rewards.component';
+import { SecurityComponent } from './pages/security/security.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
       {
         path: 'rewards',
         component: RewardsComponent
+      },
+      {
+        path: 'security',
+        component: SecurityComponent
       },
       {
         path: '**',

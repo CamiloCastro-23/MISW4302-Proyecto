@@ -1,27 +1,57 @@
-# AlarmaApp
+# MISW4302 - Entrega
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+# Link Mocks WEB
 
-## Development server
+[https://www.figma.com/design/oCGYMQp0hUc0ml0zPa47Yt/Web-wireframe?node-id=0-1&node-type=canvas](https://www.figma.com/design/oCGYMQp0hUc0ml0zPa47Yt/Web-wireframe?node-id=0-1&node-type=canvas)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Camilo Castro
 
-## Code scaffolding
+## PANTALLAS ENTREGADAS
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image.png](readme-files/image.png)
 
-## Build
+![image.png](readme-files/image%201.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![image.png](readme-files/image%202.png)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Hernan Martinez
 
-## Running end-to-end tests
+## PANTALLAS ENTREGADAS
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+![image.png](readme-files/image%204.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![image.png](readme-files/image%205.png)
+
+![image.png](readme-files/image%206.png)
+
+# Ejecutar proyecto
+
+## Requerimientos
+
+- Nodejs 22.2.0
+- Angular CLI: 18.2.5
+- Package Manager: npm 10.7.0
+
+## Pasos
+
+1. Descargar release del proyecto ***Release Camilo Castro 1.0***
+2. Ingresar a la carpeta raiz del proyecto
+3. Ejecutar el comando
+
+```ocaml
+npm install
+```
+
+1. Habilitar el modo server de la applicacion 
+
+```ocaml
+ng serve -o
+```
+
+1. Visualizar en el Navegador con la resolucion ***1366 x 768 (utilizando los DevTools)***
+
+![image.png](image%207.png)
+
+1. Seguir el video de Navegacion del proyecto
