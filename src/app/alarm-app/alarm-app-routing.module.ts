@@ -5,6 +5,8 @@ import { LayoutComponent } from './pages/layout/layout.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { RewardsComponent } from './pages/rewards/rewards.component';
 import { SecurityComponent } from './pages/security/security.component';
+import { ApagarComponent } from './pages/apagar/apagar.component';
+import { FelicidadesComponent } from './pages/felicidades/felicidades.component';
 
 const routes: Routes = [
   {
@@ -22,6 +24,14 @@ const routes: Routes = [
       {
         path: 'security',
         component: SecurityComponent
+      },
+      {
+        path: 'off',
+        component: ApagarComponent
+      },
+      {
+        path: 'success',
+        component: FelicidadesComponent
       },
       {
         path: '**',

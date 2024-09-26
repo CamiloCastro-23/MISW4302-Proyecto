@@ -40,7 +40,7 @@
   <div class="flex row-span-1 items-center text-sm pl-6 space-x-2 rounded-full cursor-pointer hover:bg-[#e1e2e9]" [ngClass]="{
         'text-slate-900 font-semibold bg-[#d7e3f7]': selectedItem === 'apagar',
         'text-slate-600 font-normal': selectedItem !== 'apagar'
-      }" (click)="selectItem('apagar')">
+      }" (click)="selectItem('apagar')" routerLink="./off">
     <span class="material-symbols-outlined">stars</span>
     <div>Apagar Alarma</div>
   </div>
