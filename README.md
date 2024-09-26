@@ -36,7 +36,7 @@
 
 ## Pasos
 
-1. Descargar release del proyecto ***Release Camilo Castro 1.0***
+1. Descargar release del proyecto o clonar el repositorio
 2. Ingresar a la carpeta raiz del proyecto
 3. Ejecutar el comando
 

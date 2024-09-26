@@ -5,3 +5,13 @@
 :root {
   --mdc-filled-text-field-container-color: #d1e4ff;
 }
+
+/* Deshabilitar scroll en toda la página */
+html, body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+

@@ -1,20 +1,20 @@
 <div class="flex flex-col h-full w-full items-center justify-center">
-  <div class="text-4xl mb-4 z-60 relative">
+  <div class="text-4xl z-60 relative">
     Para apagar tu alarma, escanea con tu celular este código QR.
   </div>
 
   <!-- Contenedor relativo para la superposición -->
   <div class="relative">
     <!-- Icono de reloj de fondo -->
-    <span class="material-symbols-outlined text-[600px] text-black">
+    <span class="material-symbols-outlined text-[500px] text-black">
       watch
     </span>
 
     <!-- Imagen del QR superpuesta -->
-    <img src="assets/qr.png" alt="" class="absolute top-[30%] left-[29%] w-[250px] h-[250px] z-10">
+    <img src="assets/qr.png" alt="" class="absolute top-[30%] left-[30%] w-[200px] h-[200px] z-10">
 
     <!-- Botón Done, posicionado dentro del contenedor principal -->
-    <div class="absolute bottom-0 left-[50%] transform -translate-x-1/2 translate-y-12 z-20">
+    <div class="flex absolute bottom-0 left-[0%] translate-y-8 translate-x-1/2 z-20 items-center justify-center">
       <div
         class="flex w-64 h-12 bg-[#e6eef6] hover:bg-sky-200 text-sky-600 rounded-2xl items-center justify-center"
         routerLink="/dashboard/success">
